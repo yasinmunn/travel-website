@@ -12,7 +12,7 @@ body {
 }
 
 main {
-    max-width: 1270px;
+    max-width: 1170px;
     margin: 40px auto;
 }
 
@@ -27,8 +27,7 @@ main {
 /* Nav/header Style Start Here */
 
 header {
-    padding: 50px 140px;
-    border: 1px solid red;
+    padding: 40px 140px;
 }
 
 nav {
@@ -76,7 +75,7 @@ nav span {
     background-position: center;
     text-align: center;
     color: #fff;
-    padding: 50px 20px; 
+    padding: 120px 20px; 
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -89,13 +88,14 @@ nav span {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    gap: 10px;
 }
 
 .input-field input {
     padding: 16px;
     border-radius: 8px;
     border: none;
-    margin: 0 10px 10px 0;
+    /* margin: 0 10px 10px 0; */
 }
 
 .fa-solid {
@@ -113,6 +113,8 @@ nav span {
     color: #fff;
     font-weight: 400;
     line-height: 1.5rem;
+    margin-bottom: 30px;
+    width: 650px;
 }
 
 @media (max-width: 600px) {
@@ -132,6 +134,7 @@ nav span {
     nav > ul {
         width: 100%;
         justify-content: space-between;
+        display: none;
     }
 
     nav li {
@@ -143,12 +146,14 @@ nav span {
     }
 
     .banner-title {
-        font-size: 2rem; 
+        font-size: 1.3rem; 
         margin-bottom: 1rem; 
     }
 
     .banner-description {
         font-size: 0.9rem;
+        width: auto;
+        margin-bottom: 0;
     }
 
     .input-field input {
@@ -156,3 +161,5 @@ nav span {
         margin: 0 0 10px 0;
     }
 }
+
+

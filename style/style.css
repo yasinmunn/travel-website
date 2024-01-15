@@ -13,7 +13,7 @@ body {
 
 main {
     max-width: 1170px;
-    margin: 40px auto;
+    margin: 30px auto;
 }
 
 .primary-button {
@@ -73,7 +73,6 @@ nav span {
 
 .banner {
     width: 100%;
-    margin: 50px 0;
     background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url('../Images/Group 13 (1) (1).png');
     background-size: cover;
     background-position: center;
@@ -125,6 +124,9 @@ nav span {
 
 
 
+/* Style End Here */
+
+
 /* Responsive Start Here */
 
 @media (max-width: 600px) {
@@ -171,6 +173,7 @@ nav span {
     }
 }
 
+/* Laptop Responsive Style */
 
 @media (min-width:601px){
     .ham-burger{

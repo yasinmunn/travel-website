@@ -1,0 +1,109 @@
+/* Global Style */
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;800&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Mulish', sans-serif;
+}
+main {
+    max-width: 1270px;
+    margin: 40px auto;
+}
+
+.primary-button{
+    border-radius: 8px;
+    background: #FF5400;
+    font-size: 1rem;
+    font-weight: 700;
+    padding: 16px 30px;
+}
+
+/* Nav/header Style Start Here */
+
+header{
+    padding: 50px 140px;
+    border: 1px solid red;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;  
+    align-items: center;
+
+}
+
+nav > ul{
+    display: flex;
+}
+
+nav li{
+    list-style: none;
+    margin-right: 44px;
+    font-size: 1.1rem;
+}
+nav li a {
+    text-decoration: none;
+    color: var(--Dark-02, #424247);
+}
+.nav-title{
+    font-size: 2.1rem;
+    color: #131318;
+}
+
+nav span{
+    color: #FF5400;;
+}
+.header-icon{
+    display: flex;
+    gap: 1rem;
+}
+
+/* Section One Style Here */
+
+.banner{
+    /* width: 1170px;
+    height: 500px; */
+    margin: 50px auto;
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url('/Images/Group 13 (1) (1).png'); 
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: #fff;
+    padding: 100px 200px;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1rem;
+}
+.input-field {
+    margin-top: 50px;
+    display: inline-flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.input-field input {
+    padding: 16px;
+    border-radius: 8px;
+    border: none;
+    margin-right: 10px;
+}
+.fa-solid{
+    margin-right: 10px;
+}
+.banner-title{
+    font-size: 4rem;
+    color: #FFF;
+    margin-bottom: 1.5rem;
+}
+.banner-description{
+    font-size: 1rem;
+    color: #fff;
+    font-weight: 400;
+    line-height: 1.5rem;
+
+}

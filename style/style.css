@@ -22,10 +22,14 @@ main {
     font-size: 1rem;
     font-weight: 700;
     padding: 16px 30px;
+    cursor: pointer;
 }
 
 /* Nav/header Style Start Here */
 
+/* .ham-burger{
+    display: none;
+} */
 header {
     padding: 40px 140px;
 }
@@ -70,7 +74,7 @@ nav span {
 .banner {
     width: 100%;
     margin: 50px 0;
-    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url('/Images/Group 13 (1) (1).png');
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url('../Images/Group 13 (1) (1).png');
     background-size: cover;
     background-position: center;
     text-align: center;
@@ -88,7 +92,10 @@ nav span {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 10px;
+    gap: 15px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    padding: 16px;
 }
 
 .input-field input {
@@ -98,9 +105,6 @@ nav span {
     /* margin: 0 10px 10px 0; */
 }
 
-.fa-solid {
-    margin-right: 0;
-}
 
 .banner-title {
     font-size: 4rem;
@@ -117,6 +121,12 @@ nav span {
     width: 650px;
 }
 
+
+
+
+
+/* Responsive Start Here */
+
 @media (max-width: 600px) {
     body{
         margin-right: 20px;
@@ -125,20 +135,16 @@ nav span {
     header {
         padding: 30px 20px;
     }
-
-    nav {
-        flex-direction: column;
-        align-items: flex-start;
+    .nav-title{
+        font-size: 1.2rem;
+    }
+    .header-icon img {
+        width: 25px;
+        height: 25px;
     }
 
     nav > ul {
-        width: 100%;
-        justify-content: space-between;
         display: none;
-    }
-
-    nav li {
-        margin: 0;
     }
 
     .banner {
@@ -160,6 +166,14 @@ nav span {
         width: 100%;
         margin: 0 0 10px 0;
     }
+    .primary-button{
+        padding: 16px 100px;
+    }
 }
 
 
+@media (min-width:601px){
+    .ham-burger{
+        display: none;
+    }
+}

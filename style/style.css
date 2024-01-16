@@ -16,13 +16,23 @@ main {
     margin: 30px auto;
 }
 
-.primary-button {
+
+.text-color{
+    font-size: 1rem;
+    color: rgba(19, 19, 24, 0.70);
+    line-height: 1.5rem;
+    font-weight: 400px;
+
+}
+.main-button{
     border-radius: 8px;
     background: #FF5400;
-    font-size: 1rem;
-    font-weight: 700;
-    padding: 16px 30px;
+    border: 0;
+    padding: 15px 30px;
+    font-size: 1.1rem;
+    color: #fff;
     cursor: pointer;
+    font-weight: 800;
 }
 
 /* Nav/header Style Start Here */
@@ -30,6 +40,14 @@ main {
 /* .ham-burger{
     display: none;
 } */
+.primary-button {
+    width: 172px;
+    border-radius: 8px;
+    background: #FF5400;
+    font-size: 1rem;
+    padding: 16px 30px;
+    cursor: pointer;
+}
 header {
     padding: 40px 140px;
 }
@@ -121,7 +139,31 @@ nav span {
 }
 
 
+/* Section Two Style Start */
 
+.popular-tours-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+    margin-top: 80px;
+}
+.popular-tours-section img{
+    width: auto;
+}
+
+
+.popular-tours h3 {
+    font-size: 2.5rem;
+
+}
+.popular-tours p{
+    margin: 25px 0px;
+}
+.popular-tours li{
+    margin-bottom: 20px;
+    width: 500px;
+}
 
 
 /* Style End Here */
@@ -133,6 +175,9 @@ nav span {
     body{
         margin-right: 20px;
         margin-left: 20px;
+    }
+    .text-color{
+        font-size: 0.9rem;
     }
     header {
         padding: 30px 20px;
@@ -169,8 +214,28 @@ nav span {
         margin: 0 0 10px 0;
     }
     .primary-button{
-        padding: 16px 100px;
+        width: 100%;
     }
+    /* Section TWo Responsive */
+    .popular-tours-section {
+        flex-direction: column;
+        gap: 40px;
+    }
+    .popular-tours{
+        width: 100%;
+    }
+    .popular-tours li{
+        width: 100%;
+    }
+    .popular-tours-section img{
+        width: 100%;
+    } 
+    .popular-tours h3{
+        font-size: 1.2rem;
+    }
+
+
+
 }
 
 /* Laptop Responsive Style */

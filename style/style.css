@@ -24,6 +24,11 @@ main {
     font-weight: 400px;
 
 }
+.title-global{
+    font-size: 2.6rem;
+    color: #131318;
+    font-weight: 800;
+}
 .main-button{
     border-radius: 8px;
     background: #FF5400;
@@ -165,6 +170,62 @@ nav span {
     width: 500px;
 }
 
+/* Destination Style Start Here */
+
+.destination-content{
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+.destination-content p{
+    padding-top: 20px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.image-container {
+    position: relative;
+    text-align: center;
+}
+
+.image-container img {
+    width: 100%; 
+    height: 300px;
+    background-size: cover;
+}
+
+.location {
+    font-size: 1.8rem; 
+    color: #fff;
+    font-weight: 800;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.destionation-area{
+    display: flex;
+    justify-content:space-between;
+    gap: 25px;
+    margin-bottom: 20px;
+}
+.img-1{
+    width: 30%;
+}
+.img-2{
+    width: 45%;
+}
+.img-3{
+    width: 25%;
+}
+.img-4{
+    width: 40%;
+}
+.img-6{
+    width: 60%;
+}
+
+
 
 /* Style End Here */
 
@@ -175,6 +236,9 @@ nav span {
     body{
         margin-right: 20px;
         margin-left: 20px;
+    }
+    .title-global{
+        font-size: 1.2rem;
     }
     .text-color{
         font-size: 0.9rem;
@@ -234,8 +298,30 @@ nav span {
         font-size: 1.2rem;
     }
 
-
-
+    /* section three responsive */
+    .destionation-area{
+        flex-direction: column;
+    }
+    .image-container img{
+        width: 335px;
+        height: 176px;
+    }
+    .location{
+        font-size: 1.2rem;
+        font-weight: 800;
+    }
+    .destination-content{
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    .destination-content p{
+        padding-top: 10px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .img-1, .img-2, .img-3 ,.img-4 ,.img-6{
+        width: 100%;
+    }
 }
 
 /* Laptop Responsive Style */

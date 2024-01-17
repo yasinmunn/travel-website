@@ -362,7 +362,7 @@ form input {
 /* Responsive Start Here */
 
 @media (max-width: 600px) {
-    body{
+    main{
         margin-right: 20px;
         margin-left: 20px;
     }

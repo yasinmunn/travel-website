@@ -15,12 +15,6 @@ main {
     max-width: 1170px;
     margin: 30px auto;
 }
-section{
-    margin-right: 20px;
-    margin-left: 20px;
-}
-
-
 .text-color{
     font-size: 1rem;
     color: rgba(19, 19, 24, 0.70);
@@ -368,10 +362,10 @@ form input {
 /* Responsive Start Here */
 
 @media (max-width: 600px) {
-    /* body{
+    body{
         margin-right: 20px;
         margin-left: 20px;
-    } */
+    }
     .title-global{
         font-size: 1.2rem;
     }

@@ -15,6 +15,10 @@ main {
     max-width: 1170px;
     margin: 30px auto;
 }
+section{
+    margin-right: 20px;
+    margin-left: 20px;
+}
 
 
 .text-color{
@@ -124,9 +128,8 @@ nav span {
     padding: 16px;
     border-radius: 8px;
     border: none;
-    /* margin: 0 10px 10px 0; */
+    margin: 0 10px 0 0;
 }
-
 
 .banner-title {
     font-size: 4rem;
@@ -141,9 +144,7 @@ nav span {
     line-height: 1.5rem;
     margin-bottom: 30px;
     width: 650px;
-}
-
-
+} 
 /* Section Two Style Start */
 
 .popular-tours-section{
@@ -273,8 +274,6 @@ footer {
     background: rgba(19, 19, 24, 0.05);
     padding: 80px 0;
     text-align: center;
-    margin-left: -20px;
-    margin-right: -20px;
     margin-top: 60px;
 }
 .footer-content .header-icon{
@@ -364,17 +363,15 @@ form input {
     font-size: 1.4rem;
 }
 
-
-
 /* Style End Here */
 
 /* Responsive Start Here */
 
 @media (max-width: 600px) {
-    body{
+    /* body{
         margin-right: 20px;
         margin-left: 20px;
-    }
+    } */
     .title-global{
         font-size: 1.2rem;
     }
@@ -500,6 +497,9 @@ form input {
 
     .footer-content{
         max-width: 350px;
+    }
+    .input-field select{
+        width: 100%;
     }
 }
 
